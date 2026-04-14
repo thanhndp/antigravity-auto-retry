@@ -1,0 +1,37 @@
+{
+  "name": "antigravity-auto-retry",
+  "displayName": "Auto Retry for Antigravity",
+  "description": "Tự động bấm nút Retry khi Antigravity IDE gặp lỗi API/rate limit",
+  "version": "3.0.0",
+  "publisher": "skyline",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tokyoweb3/LazyGravity"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "autoRetry.inject",
+        "title": "Auto Retry: Inject Script"
+      },
+      {
+        "command": "autoRetry.copyScript",
+        "title": "Auto Retry: Copy Script to Clipboard"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "autoRetry.inject",
+        "key": "ctrl+alt+r",
+        "when": "true"
+      }
+    ]
+  }
+}
