@@ -1,12 +1,12 @@
 {
   "name": "antigravity-auto-retry",
   "displayName": "Auto Retry for Antigravity",
-  "description": "Tự động bấm nút Retry khi Antigravity IDE gặp lỗi API/rate limit",
-  "version": "3.0.0",
+  "description": "Tự động bấm nút Retry khi Antigravity IDE gặp lỗi API/rate limit. v4.0 Loop-Proof với 16 vùng cấm click.",
+  "version": "4.0.0",
   "publisher": "skyline",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tokyoweb3/LazyGravity"
+    "url": "https://github.com/thanhndp/antigravity-auto-retry"
   },
   "license": "MIT",
   "engines": {
